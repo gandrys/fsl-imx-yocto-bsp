@@ -23,5 +23,7 @@ Release: imx-3.10.17-1.0.0_ga_test
             imx-3.10.17-1.0.0_ga_test
   
   $ fslbsp$ repo sync
-  $ fslbsp$ SDKMACHINE=`uname -m`;MACHINE=imx6dlsabreauto source fsl-setup-release.sh -b build-base
+  $ fslbsp$ SDKMACHINE=`uname -m`;MACHINE=imx6dlsabreauto source fsl-setup-release.sh \
+            -b build-base
+
   $ fslbsp/build-base$ bitbake core-image-base
