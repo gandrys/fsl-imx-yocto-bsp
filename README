@@ -4,6 +4,7 @@ BSPs on base of Freescales`s Yocto BSP:
 Release: imx-3.10.17-1.0.0_ga_test
   
 1)Setup Build Environment
+
   Some dependencies are needed for Yocto itself, for more information, 
   see “Yocto Project Quick Start”.
 
@@ -14,6 +15,9 @@ Release: imx-3.10.17-1.0.0_ga_test
   $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
   $ chmod a+x ~/bin/repo
   $ PATH=${PATH}:~/bin
+
+
+
 
 2)Yocto Environment Initialization
   
