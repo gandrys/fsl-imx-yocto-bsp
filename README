@@ -4,9 +4,11 @@ BSPs on base of Freescales`s Yocto BSP:
   Release: imx-3.10.17-1.0.0_ga_test
   
   1)Setup Build Environment
-      Some dependencies are needed for Yocto itself, for more information, see “Yocto Project Quick Start”.
+    Some dependencies are needed for Yocto itself, for more information, 
+    see “Yocto Project Quick Start”.
 
-    $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath libsdl1.2-dev xterm libcurl4-openssl-dev lzop curl
+    $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib 
+    $ sudo apt-get install build-essential chrpath libsdl1.2-dev xterm libcurl4-openssl-dev lzop curl
 
     $ mkdir ~/bin
     $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
@@ -15,9 +17,9 @@ BSPs on base of Freescales`s Yocto BSP:
 
   2)Yocto Environment Initialization
   
-    $ mkdir fsl-bsp
-    $ cd fsl-bsp
-    $ fsl-release-bsp$ repo init -u git://github.com/gandrys/fsl-imx-yocto-bsp.git -b imx-3.10.17-1.0.0_ga_test
-    $ fsl-release-bsp$ repo sync
-    $ fsl-release-bsp$ SDKMACHINE=`uname -m`;MACHINE=imx6dlsabreauto source fsl-setup-release.sh -b build-base
-    $ fsl-release-bsp/build-base$ bitbake core-image-base
+    $ mkdir fslbsp
+    $ cd fslbsp
+    $ fslbsp$ repo init -u git://github.com/gandrys/fsl-imx-yocto-bsp.git -b imx-3.10.17-1.0.0_ga_test
+    $ fslbsp$ repo sync
+    $ fslbsp$ SDKMACHINE=`uname -m`;MACHINE=imx6dlsabreauto source fsl-setup-release.sh -b build-base
+    $ fslbsp/build-base$ bitbake core-image-base
