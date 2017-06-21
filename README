@@ -24,7 +24,7 @@ Release: imx-3.10.17-1.0.0_ga_test
   $ mkdir fslbsp
   $ cd fslbsp
   $ fslbsp$ repo init -u git://github.com/gandrys/fsl-imx-yocto-bsp.git -b \
-            imx-3.10.17-1.0.0_ga_test
+            imx-3.10.17-1.0.0_ga_test2
   
   $ fslbsp$ repo sync
   $ fslbsp$ SDKMACHINE=`uname -m`;MACHINE=imx6dlsabreauto source fsl-setup-release.sh \
