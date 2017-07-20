@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default sync-j="4"/>
+  <default sync-j="8"/>
   <include name="imx-4.1.15-1.0.0_ga.xml"/>
 </manifest>
