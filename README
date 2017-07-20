@@ -1,7 +1,7 @@
 BSPs on base of Freescales`s Yocto BSP:
 ====================================== 
   
-Release: imx-3.10.17-1.0.0_ga_test2
+Release: imx-3.10.17-1.0.0_ga
   
 1)Setup Build Environment
 
@@ -24,7 +24,7 @@ Release: imx-3.10.17-1.0.0_ga_test2
   $ mkdir fslbsp
   $ cd fslbsp
   $ fslbsp$ repo init -u git://github.com/gandrys/fsl-imx-yocto-bsp.git -b \
-            imx-3.10.17-1.0.0_ga_test2
+            imx-3.10.17-1.0.0_ga
   
   $ fslbsp$ repo sync
   $ fslbsp$ SDKMACHINE=`uname -m`;MACHINE=imx6dlsabreauto source fsl-setup-release.sh \
